@@ -128,7 +128,7 @@ bool EdgeSE3Mixture::read(std::istream& is)
   weights.reserve(numberComponents);
   determinants.reserve(numberComponents);
 
-  Vector7d p;
+  Vector7 p;
   double w;
 
   VertexSE3* va = static_cast<VertexSE3*>(this->vertex(0));
